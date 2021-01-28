@@ -1,0 +1,110 @@
+html {
+    background: rgb(0,82,167);
+    background: linear-gradient(to left, rgba(0,32,127,1), rgba(0,2,61,1), rgba(0,32,127,1));
+}
+
+* {
+    font-family: Calibri;
+    color: cornflowerblue;
+}
+
+body {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.emote_cont {
+    display: inline-block;
+    margin: 15px;
+    background-image: url("../img/em_back.png");
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+}
+
+.add_cont {
+    display: inline-block;
+    margin: 15px;
+    background-image: url("../img/add_back.png");
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+}
+
+.emote {
+    max-width: 64px; 
+    max-height: 64px; 
+    vertical-align: middle; 
+    position: relative; 
+    top: 33px; 
+    /*transform: translate(0, -50%);*/
+    text-align: center;
+}
+
+.gallery {
+    display: block;
+    max-width: 80%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.button, a.button{
+    background: rgba(0, 0, 0, 0.3);
+    border: 3px solid blue;
+    border-radius: 30px;
+    font-size: 16pt;
+    padding: 10px 20px 13px 20px;
+    color: cornflowerblue;
+    margin: 10px 0 10px 0;
+}
+
+
+.text_input {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgb(30,30,100);
+    border-radius: 15px;
+    border-right: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+    border-left: 1px solid aqua;
+    border-top: 1px solid aqua;
+    background: rgb(100,100,255);
+}
+
+.form_cont {
+    display: block;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 15px;
+    border-right: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+    border-left: 1px solid aqua;
+    border-top: 1px solid aqua;
+    padding: 45px;
+}
+
+form {
+    display: block;
+    text-align: left;
+}
+
+::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+#details{
+    border-spacing: 0px;
+}
+
+#details td{
+    text-align: left;
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+}
