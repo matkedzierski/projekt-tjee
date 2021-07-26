@@ -1,3 +1,3 @@
-To repozytorium zawiera dwa katalogi, z których każdy jest odrębnym projektem. 
-Są one niezależne od siebie, dlatego najwygodniej po sklonowaniu repozytorium otworzyć je w 
-środowisku NetBeans oddzielnie, wczytując z dysku.
+#Zadanie projektowe z przedmiotu Technologie JavaEE
+Na projekt składają się dwie oddzielne aplikacje, serwer i klient. Klient realizuje stronę internetową i formularze. Serwer przekazuje klientowi dane do wyświetlania, składuje obrazy w bazie i tworzy ich miniatury. Serwer wykorzystuje bazę danych MongoDB.<br>
+Prezentacja działania aplikacji dostępna w pliku pdf ze sprawozdaniem. 
